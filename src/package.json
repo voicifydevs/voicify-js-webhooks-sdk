@@ -18,6 +18,8 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
+    "@voicify/voicify-sdk-assistant": "^1.0.1",
+    "@voicify/voicify-sdk-cms": "^1.0.1"
   },
   "devDependencies": {
     "typescript": "^2.0"
