@@ -1,8 +1,8 @@
 const mediaTypes = {
-     AudioFile : 'AudioFile',
-     ImageFile : 'ImageFile',
-     VideoFile : 'VideoFile',
-     TextFile : 'TextFile',
+     audioFile : 'AudioFile',
+     imageFile : 'ImageFile',
+     videoFile : 'VideoFile',
+     textFile : 'TextFile',
 
 };
 

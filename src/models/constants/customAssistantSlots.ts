@@ -1,20 +1,19 @@
 
 const customAssistantSlots = {
-
-     Query : 'Query',
-     Dynamic : "VoicifyDynamic",
-     LatestMessageCategory : 'LatestMessageCategory',
-     EventName : 'EventName',
-     IngredientName : 'IngredientName',
-     LocationName : 'LocationName',
-     MealType : 'MealType',
-     RecipeName : 'RecipeName',
-     StartTime : 'StartTime',
-     CookTime : 'CookTime',
-     StartDate : 'StartDate',
+     query : 'Query',
+     dynamic : "VoicifyDynamic",
+     latestMessageCategory : 'LatestMessageCategory',
+     eventName : 'EventName',
+     ingredientName : 'IngredientName',
+     locationName : 'LocationName',
+     mealType : 'MealType',
+     recipeName : 'RecipeName',
+     startTime : 'StartTime',
+     cookTime : 'CookTime',
+     startDate : 'StartDate',
      Number : 'Number',
-     StepNumber : 'StepNumber',
-     ListItemId : 'ListItemId',
+     stepNumber : 'StepNumber',
+     listItemId : 'ListItemId',
 };
 
 export default customAssistantSlots

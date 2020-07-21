@@ -1,11 +1,11 @@
 const eventWebhookEventTypes = {
-     ContentHit : 'ContentHit',
-     ContentMiss : 'ContentMiss',
-     FeatureHit : 'FeatureHit',
-     FeatureMiss : 'FeatureMiss',
-     RequestReceived : 'RequestReceived',
-     ContentItemSaved : 'ContentItemSaved',
-     ContentItemDeleted : 'ContentItemDeleted',
+     contentHit : 'ContentHit',
+     contentMiss : 'ContentMiss',
+     featureHit : 'FeatureHit',
+     featureMiss : 'FeatureMiss',
+     requestReceived : 'RequestReceived',
+     contentItemSaved : 'ContentItemSaved',
+     contentItemDeleted : 'ContentItemDeleted',
 
 };
 
