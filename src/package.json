@@ -1,0 +1,25 @@
+{
+  "name": "@voicify/voicify-sdk-webhooks",
+  "version": "1.0.1",
+  "description": "Client for Voicify Webhooks",
+  "author": "Voicify",
+  "keywords": [
+    "fetch",
+    "typescript",
+    "swagger-client",
+    "@voicify/voicify-sdk-cms",
+    "webhooks"
+  ],
+  "license": "Unlicense",
+  "main": "./dist/index.js",
+  "typings": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir dist/",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "^2.0"
+  }
+}
