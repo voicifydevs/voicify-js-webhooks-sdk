@@ -1,0 +1,26 @@
+const customAssistantIntents = {
+    voicifyGeneralQuestionIntent : 'VoicifyGeneralQuestionIntent',
+    voicifyDynamicIntent : 'VoicifyDynamicIntent',
+    voicifyLatestMessageIntent : 'VoicifyLatestMessageIntent',
+    voicifyEventGeneralSearch : 'VoicifyEventGeneralSearch',
+    voicifyEventLocationSearch : 'VoicifyEventLocationSearch',
+    voicifyEventStartTimeSearch : 'VoicifyEventStartTimeSearch',
+    voicifyEventStatusSearch : 'VoicifyEventStatusSearch',
+    voicifyGoToStep : 'VoicifyGoToStep',
+    voicifyHelp : 'VoicifyHelp',
+    voicifyMore : 'VoicifyMore',
+    voicifyNo : 'VoicifyNo',
+    voicifyNumber : 'VoicifyNumber',
+    voicifyRecipeDetails : 'VoicifyRecipeDetails',
+    voicifyRecipeSearch : 'VoicifyRecipeSearch',
+    voicifyStart : 'VoicifyStart',
+    voicifyStartOver : 'VoicifyStartOver',
+    voicifyStop : 'VoicifyStop',
+    voicifyWelcome : 'VoicifyWelcome',
+    voicifyYes : 'VoicifyYes',
+    voicifyNext : 'VoicifyNext',
+    voicifyPrevious : 'VoicifyPrevious',
+    voicifyListItemSelect : 'VoicifyListItemSelect',
+}
+
+export default customAssistantIntents;
