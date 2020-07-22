@@ -1,4 +1,4 @@
-import IntegrationSetupField from "./IntegrationSetupField";
-export default interface LongTextField extends IntegrationSetupField {
+import {IntegrationSetupField} from "./IntegrationSetupField";
+export interface LongTextField extends IntegrationSetupField {
     placeholder: string
 }

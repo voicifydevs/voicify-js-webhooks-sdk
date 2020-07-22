@@ -1,8 +1,8 @@
-﻿import EventWebhookEvent from "./EventWebhookEvent";
-import GeneralAssistantRequest from "../requests/GeneralAssistantRequest";
+﻿import {EventWebhookEvent} from "./EventWebhookEvent";
+import {GeneralAssistantRequest} from "../requests/GeneralAssistantRequest";
 
 /**Event data for when a feature is hit but there is no content for the original request */
-export default interface WebhookContentMissEvent extends EventWebhookEvent {
+export interface WebhookContentMissEvent extends EventWebhookEvent {
     featureTypeId: string;
     reason: string;
     eventType: string;

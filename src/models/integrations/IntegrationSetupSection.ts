@@ -1,4 +1,4 @@
-import IntegrationSetupProperty from "./IntegrationSetupProperty";
+import {IntegrationSetupProperty} from "./IntegrationSetupProperty";
 
 export interface IntegrationSetupSection {
     instructionsMarkdown: string;

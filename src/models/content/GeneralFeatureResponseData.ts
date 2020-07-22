@@ -1,7 +1,7 @@
-import FeatureResponseData from "./FeatureResponseData";
-import GeneralResponseModel from "./GeneralResponseModel";
+import {FeatureResponseData} from "./FeatureResponseData";
+import {GeneralResponseModel} from "./GeneralResponseModel";
 
-export default interface GeneralFeatureResponseData extends GeneralResponseModel, FeatureResponseData
+export interface GeneralFeatureResponseData extends GeneralResponseModel, FeatureResponseData
 {
     applicationId?: string;
     applicationFeatureId?: string;

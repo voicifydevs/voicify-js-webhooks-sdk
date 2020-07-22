@@ -1,5 +1,5 @@
 
-const customAssistantSlots = {
+export const customAssistantSlots = {
      query : 'Query',
      dynamic : "VoicifyDynamic",
      latestMessageCategory : 'LatestMessageCategory',
@@ -15,5 +15,3 @@ const customAssistantSlots = {
      stepNumber : 'StepNumber',
      listItemId : 'ListItemId',
 };
-
-export default customAssistantSlots

@@ -1,7 +1,7 @@
-﻿import EventWebhookEvent from "./EventWebhookEvent";
+﻿import {EventWebhookEvent} from "./EventWebhookEvent";
 
 /**Webhook event for a feature hit */
-export default interface WebhookFeatureHitEvent extends EventWebhookEvent {
+export interface WebhookFeatureHitEvent extends EventWebhookEvent {
     featureTypeId: string;
     isCustomFeatureServer: boolean;
     intentName: string;

@@ -1,4 +1,4 @@
-const languageIds = {
+export const languageIds = {
      en_US : "e14ab821-a20d-41ce-86bf-230aeb25fa6d",
      en_CA : "e1c7e082-d119-4ac9-b708-960d52c0773b",
      en_GB : "f71adf35-c013-4576-9ec9-5b9f074d9f4e",
@@ -57,5 +57,3 @@ const languageIds = {
      th_TH : "25df8900-d50c-44c0-a68d-6f06006e9175",
 
 }
-
-export default languageIds;

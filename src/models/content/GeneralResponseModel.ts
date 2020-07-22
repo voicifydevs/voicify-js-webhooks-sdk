@@ -1,7 +1,7 @@
-import ResponseModel from "./ResponseModel";
+import {ResponseModel} from "./ResponseModel";
 import { MediaItemModel, MediaResponseContainerModel, FollowUpModel, RepromptModel } from "@voicify/voicify-sdk-cms";
 
-export default interface GeneralResponseModel extends ResponseModel {
+export interface GeneralResponseModel extends ResponseModel {
     id?: string;
     smallImage?: MediaItemModel;
     largeImage?: MediaItemModel;

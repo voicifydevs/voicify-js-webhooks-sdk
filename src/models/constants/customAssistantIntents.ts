@@ -1,4 +1,4 @@
-const customAssistantIntents = {
+export const customAssistantIntents = {
     voicifyGeneralQuestionIntent : 'VoicifyGeneralQuestionIntent',
     voicifyDynamicIntent : 'VoicifyDynamicIntent',
     voicifyLatestMessageIntent : 'VoicifyLatestMessageIntent',
@@ -22,5 +22,3 @@ const customAssistantIntents = {
     voicifyPrevious : 'VoicifyPrevious',
     voicifyListItemSelect : 'VoicifyListItemSelect',
 }
-
-export default customAssistantIntents;

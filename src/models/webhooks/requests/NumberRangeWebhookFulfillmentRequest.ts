@@ -1,8 +1,8 @@
-﻿import NumberRangeSearchResponseModel from "../../content/NumberRangeSearchResponseModel";
-import GeneralAssistantRequest from "./GeneralAssistantRequest";
+﻿import {NumberRangeSearchResponseModel} from "../../content/NumberRangeSearchResponseModel";
+import {GeneralAssistantRequest} from "./GeneralAssistantRequest";
 
 /**Webhook request to fulfill the response of a number range */
-export default interface NumberRangeWebhookFulfillmentRequest {
+export interface NumberRangeWebhookFulfillmentRequest {
     id: string;
     minimumValue: number | null;
     maximumValue: number | null;

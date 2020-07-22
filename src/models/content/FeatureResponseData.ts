@@ -1,6 +1,6 @@
-import ResponseModel from "./ResponseModel";
+import {ResponseModel} from "./ResponseModel";
 
-export default interface FeatureResponseData extends ResponseModel {
+export interface FeatureResponseData extends ResponseModel {
     applicationId?: string;
     applicationFeatureId?: string;
     id?: string;

@@ -1,4 +1,4 @@
-import IntegrationSetupField from "./IntegrationSetupField";
+import {IntegrationSetupField} from "./IntegrationSetupField";
 
 const CheckboxField = () => {
     fieldType: "CheckboxField"

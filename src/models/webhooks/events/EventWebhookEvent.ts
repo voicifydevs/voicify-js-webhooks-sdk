@@ -3,7 +3,7 @@
  * Model used for tracking a basic analytics event
  * for end-user usage of the application
  */
-export default interface EventWebhookEvent {
+export interface EventWebhookEvent {
     ed: string;
     applicationId: string;
     eventDate: Date | string;

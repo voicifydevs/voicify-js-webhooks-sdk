@@ -1,3 +1,3 @@
-export default interface IntegrationOAuthState {
+export interface IntegrationOAuthState {
     oAuthUrl: string
 }

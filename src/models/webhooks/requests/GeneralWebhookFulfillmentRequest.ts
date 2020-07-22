@@ -1,12 +1,12 @@
-﻿import GeneralResponseModel from "../../content/GeneralResponseModel";
-import GeneralAssistantRequest from "./GeneralAssistantRequest";
+﻿import {GeneralResponseModel} from "../../content/GeneralResponseModel";
+import {GeneralAssistantRequest} from "./GeneralAssistantRequest";
 
 /**
  * The top level webhook fulfillment request model
  * containing the data sent to a webhook to get a content
  * fulfillment response
  */
-export default interface GeneralWebhookFulfillmentRequest {
+export interface GeneralWebhookFulfillmentRequest {
     id: string;
     content: string;
     title: string;

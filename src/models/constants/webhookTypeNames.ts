@@ -1,4 +1,4 @@
-const webhookTypeNames = {
+export const webhookTypeNames = {
      CONTENT_ITEM_RESPONSE_RESOLVER : "Content Item Response Resolver",
      APPLICATION_RESPONSE_RESOLVER : "Application Content Response Resolver",
      APPLICATION_FEATURE_RESPONSE_RESOLVER : "Application Feature Content Response Resolver",
@@ -10,5 +10,3 @@ const webhookTypeNames = {
      CONTENT_ITEM_DELETED : "Content Item Deleted",
 
 };
-
-export default webhookTypeNames;
