@@ -1,6 +1,6 @@
 import { IntegrationSetupSection } from "./IntegrationSetupSection";
 
-export default interface IntegrationSetupResponse
+export interface IntegrationSetupResponse
 {
     /**A oauth url to redirect the client */
     oAuthUrl: string;

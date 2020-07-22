@@ -1,4 +1,4 @@
-﻿import GeneralAssistantRequest from "./GeneralAssistantRequest";
+﻿import {GeneralAssistantRequest} from "./GeneralAssistantRequest";
 import { EventResponseModel } from "@voicify/voicify-sdk-cms";
 import { EventQueryType } from "./EventQueryType";
 
@@ -6,7 +6,7 @@ import { EventQueryType } from "./EventQueryType";
  * Request model for sending to a webhook to fulfill the response
  * for the event item
  */
-export default interface EventWebhookFulfillmentRequest {
+export interface EventWebhookFulfillmentRequest {
     id: string;
     title: string;
     eventName: string;

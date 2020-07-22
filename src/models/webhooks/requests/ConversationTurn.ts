@@ -1,7 +1,7 @@
-﻿import ChildTurn from "./ChildTurn";
+﻿import {ChildTurn} from "./ChildTurn";
 
 /**Represents the state of a single turn in conversation */
-export default interface ConversationTurn {
+export interface ConversationTurn {
     contentId: string;
     featureTypeId: string;
     applicationId: string;

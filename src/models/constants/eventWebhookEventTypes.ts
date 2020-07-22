@@ -1,4 +1,4 @@
-const eventWebhookEventTypes = {
+export const eventWebhookEventTypes = {
      contentHit : 'ContentHit',
      contentMiss : 'ContentMiss',
      featureHit : 'FeatureHit',
@@ -8,5 +8,3 @@ const eventWebhookEventTypes = {
      contentItemDeleted : 'ContentItemDeleted',
 
 };
-
-export default eventWebhookEventTypes;

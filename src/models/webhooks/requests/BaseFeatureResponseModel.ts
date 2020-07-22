@@ -1,13 +1,13 @@
 ﻿import { FollowUpModel, MediaResponseModel } from "@voicify/voicify-sdk-cms";
-import AccountLinkingModel from "../responses/AccountLinkingModel";
-import PermissionModel from "../responses/PermissionModel";
-import GeneralFeatureResponseData from "../../content/GeneralFeatureResponseData";
+import {AccountLinkingModel} from "../responses/AccountLinkingModel";
+import {PermissionModel} from "../responses/PermissionModel";
+import {GeneralFeatureResponseData} from "../../content/GeneralFeatureResponseData";
 
 /**
  * Contains properties that all feature server response models
  * should have to send back to the voice experience platform
  */
-export default interface BaseFeatureResponseModel {
+export interface BaseFeatureResponseModel {
     id: string;
     applicationId: string;
     userId: string;

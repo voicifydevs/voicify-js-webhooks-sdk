@@ -1,6 +1,6 @@
 import { LanguageModel } from "@voicify/voicify-sdk-cms";
 
-export default interface GeneralContentItemModel 
+export interface GeneralContentItemModel 
 {
     applicationId?: string;
     applicationFeatureId?: string;

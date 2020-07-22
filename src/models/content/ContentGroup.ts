@@ -1,4 +1,4 @@
-export default interface ContentGroup
+export interface ContentGroup
 {
     content: string[];
     followUps: string[];

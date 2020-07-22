@@ -1,5 +1,5 @@
 ﻿
-export default interface PermissionModel {
+export interface PermissionModel {
     googlePermissions: string[];
     googlePermissionPrompt: string;
     alexaPermissions: string[];

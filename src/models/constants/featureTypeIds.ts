@@ -1,4 +1,4 @@
-const featureTypeIds = {
+export const featureTypeIds = {
      welcomeMessages : "80170a3b-ea36-4901-9f40-b74c4749cde8",
      exitMessages : "f7f7914e-37ef-4a80-83b2-183ddac061cf",
      helpMessages : "3d997f5d-bf9c-4b9e-9d8c-431cb2102738",
@@ -13,5 +13,3 @@ const featureTypeIds = {
      customRequest : "8154f972-d307-456b-bff5-d635d1fd7d47",
 
 };
-
-export default featureTypeIds;

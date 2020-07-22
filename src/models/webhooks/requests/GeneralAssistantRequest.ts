@@ -1,7 +1,7 @@
-﻿import ConversationTurnHistoryState from "./ConversationTurnHistoryState";
+﻿import {ConversationTurnHistoryState} from "./ConversationTurnHistoryState";
 
 /**A general mapping of a request from the Voicify assistant API */
-export default interface GeneralAssistantRequest {
+export interface GeneralAssistantRequest {
     requestType: string;
     slots: { [key: string]: string };
     sessionAttributes: { [key: string]: any };

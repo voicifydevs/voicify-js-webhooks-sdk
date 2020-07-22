@@ -1,13 +1,13 @@
 ﻿import { MediaItemModel, FollowUpModel, RepromptModel, MediaResponseModel } from "@voicify/voicify-sdk-cms";
-import AccountLinkingModel from "./AccountLinkingModel";
-import PermissionModel from "./PermissionModel";
+import {AccountLinkingModel} from "./AccountLinkingModel";
+import {PermissionModel} from "./PermissionModel";
 
 /**
  * Contains basic information shared amongst content fulfillment
  * webhook responses that all must adhere to.
  * /// This model data is merged with the end result to send the response back down the the assistant
  */
-export default interface ContentFulfillmentWebhookData {
+export interface ContentFulfillmentWebhookData {
     id: string;
     content: string;
     smallImage: MediaItemModel;

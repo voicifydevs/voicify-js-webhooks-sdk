@@ -1,6 +1,6 @@
-import IntegrationSetupField from "./IntegrationSetupField";
+import {IntegrationSetupField} from "./IntegrationSetupField";
 
-export default interface SelectField extends IntegrationSetupField {
+export interface SelectField extends IntegrationSetupField {
     options: SelectFieldOption[];
 }
 

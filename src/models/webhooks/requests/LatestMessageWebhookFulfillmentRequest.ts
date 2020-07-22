@@ -1,8 +1,8 @@
-﻿import LatestMessageSearchResponseModel from "../../content/LatestMessageSearchResponseModel";
-import GeneralAssistantRequest from "./GeneralAssistantRequest";
+﻿import {LatestMessageSearchResponseModel} from "../../content/LatestMessageSearchResponseModel";
+import {GeneralAssistantRequest} from "./GeneralAssistantRequest";
 
 /**Webhook request to fulfill the response of a latest message */
-export default interface LatestMessageWebhookFulfillmentRequest {
+export interface LatestMessageWebhookFulfillmentRequest {
     id: string;
     category: string;
     title: string;

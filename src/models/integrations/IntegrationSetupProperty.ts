@@ -1,6 +1,6 @@
-import IntegrationSetupField from "./IntegrationSetupField";
+import {IntegrationSetupField} from "./IntegrationSetupField";
 
-export default interface IntegrationSetupProperty {
+export interface IntegrationSetupProperty {
     id: string;
     required: boolean;
     label: string;

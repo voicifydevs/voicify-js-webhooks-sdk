@@ -1,4 +1,4 @@
-export default interface IntegrationSetupRequest
+export interface IntegrationSetupRequest
 {
     accessToken: string;
     organizationId: string;

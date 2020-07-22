@@ -1,6 +1,6 @@
 import { MediaItemModel, RepromptModel } from "@voicify/voicify-sdk-cms";
 
-export default interface ResponseModel {
+export interface ResponseModel {
     id?: string;
     smallImage?: MediaItemModel;
     largeImage?: MediaItemModel;

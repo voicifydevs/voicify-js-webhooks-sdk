@@ -1,7 +1,7 @@
-﻿import GeneralAssistantRequest from "./GeneralAssistantRequest";
+﻿import {GeneralAssistantRequest} from "./GeneralAssistantRequest";
 import { AnswerModel } from "@voicify/voicify-sdk-cms";
 
-export default interface QuestionAnswerWebhookFulfillmentRequest {
+export interface QuestionAnswerWebhookFulfillmentRequest {
     id: string;
     content: string;
     applicationId: string;

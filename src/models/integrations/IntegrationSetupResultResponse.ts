@@ -1,5 +1,5 @@
-import IntegrationSetupResponse from "./IntegrationSetupResponse";
+import {IntegrationSetupResponse} from "./IntegrationSetupResponse";
 
-export default interface IntegrationSetupResultResponse extends IntegrationSetupResponse {
+export interface IntegrationSetupResultResponse extends IntegrationSetupResponse {
     apiUserId: string;
 }

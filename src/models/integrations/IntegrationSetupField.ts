@@ -1,3 +1,3 @@
-export default interface IntegrationSetupField {
+export interface IntegrationSetupField {
     fieldType: string
 }

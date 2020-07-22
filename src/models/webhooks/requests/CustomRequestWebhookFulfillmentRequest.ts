@@ -1,8 +1,8 @@
-﻿import CustomRequestSearchResponseModel from "../../content/CustomRequestSearchResponseModel";
-import GeneralAssistantRequest from "./GeneralAssistantRequest";
+﻿import {CustomRequestSearchResponseModel} from "../../content/CustomRequestSearchResponseModel";
+import {GeneralAssistantRequest} from "./GeneralAssistantRequest";
 
 /**Webhook request to fulfill the response of a custom request message */
-export default interface CustomRequestWebhookFulfillmentRequest {
+export interface CustomRequestWebhookFulfillmentRequest {
     id: string;
     requestTypes: string;
     requestNames: string;
