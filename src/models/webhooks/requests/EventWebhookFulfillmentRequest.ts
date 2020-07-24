@@ -7,21 +7,21 @@ import { EventQueryType } from "./EventQueryType";
  * for the event item
  */
 export interface EventWebhookFulfillmentRequest {
-    id: string;
-    title: string;
-    eventName: string;
-    description: string;
-    ownerName: string;
-    status: string;
-    locationName: string;
-    address: string;
-    eventStartDate: Date | string;
-    eventEndDate: Date | string | null;
-    applicationId: string;
-    applicationFeatureId: string;
-    response: EventResponseModel;
-    categories: string[];
-    queryType: EventQueryType;
-    parameters: { [key: string]: string };
-    originalRequest: GeneralAssistantRequest;
+    id?: string;
+    title?: string;
+    eventName?: string;
+    description?: string;
+    ownerName?: string;
+    status?: string;
+    locationName?: string;
+    address?: string;
+    eventStartDate?: Date | string;
+    eventEndDate?: Date | string | null;
+    applicationId?: string;
+    applicationFeatureId?: string;
+    response?: EventResponseModel;
+    categories?: string[];
+    queryType?: EventQueryType;
+    parameters?: { [key: string]: string };
+    originalRequest?: GeneralAssistantRequest;
 }

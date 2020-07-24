@@ -7,12 +7,12 @@ import {GeneralAssistantRequest} from "./GeneralAssistantRequest";
  * fulfillment response
  */
 export interface GeneralWebhookFulfillmentRequest {
-    id: string;
-    content: string;
-    title: string;
-    applicationId: string;
-    applicationFeatureId: string;
-    response: GeneralResponseModel;
-    parameters: { [key: string]: string };
-    originalRequest: GeneralAssistantRequest;
+    id?: string;
+    content?: string;
+    title?: string;
+    applicationId?: string;
+    applicationFeatureId?: string;
+    response?: GeneralResponseModel;
+    parameters?: { [key: string]: string };
+    originalRequest?: GeneralAssistantRequest;
 }
