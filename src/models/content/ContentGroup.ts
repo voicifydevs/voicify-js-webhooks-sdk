@@ -1,5 +1,5 @@
 export interface ContentGroup
 {
-    content: string[];
-    followUps: string[];
+    content?: string[];
+    followUps?: string[];
 }

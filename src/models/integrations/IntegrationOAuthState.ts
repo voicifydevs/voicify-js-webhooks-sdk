@@ -1,3 +1,3 @@
 export interface IntegrationOAuthState {
-    oAuthUrl: string
+    oAuthUrl?: string
 }
