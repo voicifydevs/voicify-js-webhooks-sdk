@@ -1,4 +1,4 @@
-import { GeneralWebhookFulfillmentRequest } from "@voicify/voicify-sdk-webhooks";
+import { GeneralWebhookFulfillmentRequest, featureTypeIds } from "@voicify/voicify-sdk-webhooks";
 
 export const returnFollowUpOverrideContent = (req, res) => {
     var voicifyRequest = req.body as GeneralWebhookFulfillmentRequest
@@ -20,10 +20,10 @@ export const returnFollowUpOverrideContent = (req, res) => {
             childContentContainer: {
                 contentItems: [{
                     id: "d210dfaf-cf92-4900-a653-7ec411518e17",
-                    featureTypeId: "53ca606b-577b-44a5-b860-df011677136b"
+                    featureTypeId: featureTypeIds.simpleChoice
                 },{
                     id: "18101e0a-4575-4a8e-a365-267749ea8afe",
-                    featureTypeId: "53ca606b-577b-44a5-b860-df011677136b"
+                    featureTypeId: featureTypeIds.simpleChoice
                 }]
             }
         }

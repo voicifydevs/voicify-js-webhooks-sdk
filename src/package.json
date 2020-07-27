@@ -1,6 +1,6 @@
 {
   "name": "@voicify/voicify-sdk-webhooks",
-  "version": "1.0.3",
+  "version": "2.2.0",
   "description": "Client for Voicify Webhooks",
   "author": "Voicify",
   "keywords": [
