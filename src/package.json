@@ -1,13 +1,16 @@
 {
   "name": "@voicify/voicify-sdk-webhooks",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "description": "Client for Voicify Webhooks",
   "author": "Voicify",
+  "repository": {
+    "url": "https://github.com/voicifydevs/voicify-js-webhooks-sdk"
+  },
   "keywords": [
     "fetch",
     "typescript",
     "swagger-client",
-    "@voicify/voicify-sdk-cms",
+    "@voicify/voicify-sdk-webhooks",
     "webhooks"
   ],
   "license": "Unlicense",
@@ -18,8 +21,8 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@voicify/voicify-sdk-assistant": "^1.0.1",
-    "@voicify/voicify-sdk-cms": "^1.0.1"
+    "@voicify/voicify-sdk-assistant": "^2.2.1",
+    "@voicify/voicify-sdk-cms": "^2.2.1"
   },
   "devDependencies": {
     "typescript": "^2.0"
